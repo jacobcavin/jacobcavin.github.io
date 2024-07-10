@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: flex-start;
   background-color: #000000;
+  aspect-ratio: 4401/2100;
 }
 .home-image {
   width: 100%;
