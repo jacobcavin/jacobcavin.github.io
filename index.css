@@ -26,7 +26,7 @@
   font-size: 30px;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "Inter Tight";
+  font-family: "Inter";
   font-weight: 500;
   line-height: 1.7;
   padding-top: var(--dl-space-space-unit);
@@ -88,7 +88,7 @@
   font-size: 30px;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: "Inter Tight";
+  font-family: "Inter";
   font-weight: 500;
   line-height: 1.7;
   padding-top: var(--dl-space-space-unit);
