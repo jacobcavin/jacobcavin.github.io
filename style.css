@@ -476,6 +476,9 @@
   .glorifyinitcard {
     width: 40%;
   }
+  .app_card {
+    width: 300px;
+  }
 }
 .app_row {
   gap: 12px;
@@ -489,7 +492,7 @@
 }
 .app_card {
   flex: 0 0 auto;
-  width: 400;
+  width: 400px;
   height: auto;
   display: flex;
   overflow: hidden;
@@ -507,11 +510,34 @@
   color: #ffffff;
   font-size: 20px;
   font-style: normal;
-  font-family: "Inter";
+  font-family: "Inter Tight";
   font-weight: 600;
 }
 .app_description {
   color: rgba(255, 255, 255, 0.57);
   font-style: normal;
+  font-family: "Inter";
   font-weight: 500;
+}
+
+.home-image {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3840/2297;
+}
+.home-image1 {
+  width: 70px;
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+.apptext_box {
+  gap: 5px;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
