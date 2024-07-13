@@ -66,6 +66,35 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.home-container3 {
+  gap: 15px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home-container3 {
+  gap: 15px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media(max-width: 479px) {
+  .home-container3 {
+    padding: 15px;
+  }
+}
+
 .home-container04 {
   width: 100%;
   height: auto;

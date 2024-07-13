@@ -477,3 +477,41 @@
     width: 40%;
   }
 }
+.app_row {
+  gap: 12px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.app_card {
+  flex: 0 0 auto;
+  width: 400;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  transition: 0.3s;
+  align-items: flex-start;
+  border-radius: 5%;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: #1a1a1a;
+}
+.app_card:hover {
+  transform: scale(0.97);
+}
+.app_title {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.app_description {
+  color: rgba(255, 255, 255, 0.57);
+  font-style: normal;
+  font-weight: 500;
+}
