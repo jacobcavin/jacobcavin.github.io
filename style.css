@@ -476,20 +476,71 @@
   .glorifyinitcard {
     width: 40%;
   }
-  .app_card {
-    width: 300px;
-  }
 }
+
+.hscroll {
+  width: 100vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+}
+
+.hscroll::-webkit-scrollbar {
+  display: none; /* Hides scrollbar */
+}
+
+
+
 .app_row {
   gap: 12px;
   flex: 0 0 auto;
-  width: 100%;
+  width: fit-content;
   height: auto;
   display: flex;
   align-items: flex-start;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  
 }
+
+@media(max-width: 767px) {
+  .app_row {
+    padding: var(--dl-space-space-twounits);
+    
+  }
+
+  .app_card {
+    max-width: 320px;
+  }
+
+  .app_card .app_title {
+    font-size: 18px;
+  }
+
+  .app_card .app_description {
+    font-size: 13px;
+  }
+
+  .app_card .home-image1 {
+    width: 60px;
+  }
+
+  .app_card .appDeatilBox {
+    padding: 15px;
+  }
+
+}
+
+@media(max-width: 479px) {
+  .app_row {
+    padding: var(--dl-space-space-unit);
+  }
+  
+
+  
+}
+
 .app_card {
   flex: 0 0 auto;
   width: 400px;
@@ -506,6 +557,13 @@
 .app_card:hover {
   transform: scale(0.97);
 }
+
+.app_feat_image{
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3840/2297;
+}
+
 .app_title {
   color: #ffffff;
   font-size: 20px;
@@ -531,6 +589,17 @@
   border-radius: 20%;
 }
 
+.appDeatilBox {
+  gap: 15px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .apptext_box {
   gap: 5px;
   flex: 0 0 auto;
@@ -540,4 +609,11 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
 }

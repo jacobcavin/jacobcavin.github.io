@@ -1,17 +1,17 @@
 .home-container {
-  width: 100%;
+  width: 100vw;
   display: flex;
-  overflow: auto;
+  overflow-x: hidden;
   min-height: 100vh;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
   background-color: #000000;
-  aspect-ratio: 4401/2100;
 }
 .home-image {
   width: 100%;
   object-fit: cover;
+  aspect-ratio: 4401/2100;
 }
 .home-container01 {
   width: 100%;
