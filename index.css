@@ -8,6 +8,13 @@
   justify-content: flex-start;
   background-color: #000000;
 }
+
+.headerContainer {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 4401/2100;
+}
+
 .home-image {
   width: 100%;
   object-fit: cover;
@@ -296,12 +303,24 @@
   }
   .home-container03 {
     align-self: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .home-container04 {
     padding: var(--dl-space-space-unit);
   }
   .home-link2 {
     width: 100%;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Inter Tight";
+    font-weight: 600;
+    padding-top: 18px;
+    border-radius: 15px;
+    padding-bottom: 18px;
+    background-color: rgba(87, 113, 185, 0.15);
   }
   .home-container06 {
     padding: var(--dl-space-space-unit);
