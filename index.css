@@ -322,6 +322,12 @@
     padding-bottom: 18px;
     background-color: rgba(87, 113, 185, 0.15);
   }
+
+  .home-container05 {
+    gap: var(--dl-space-space-twounits);
+    margin-bottom: 10px;
+  }
+
   .home-container06 {
     padding: var(--dl-space-space-unit);
   }
